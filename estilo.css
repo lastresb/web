@@ -1,0 +1,496 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background-image: url(images/bg.svg);
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+    padding: 80px 0 0 0;
+}
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color: #ffb408;
+    font-size: 40px;
+    font-weight: 800;
+}
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #dcdde2;
+    display: block;
+    font-weight: 600;
+}
+.menu .navbar ul li a:hover{
+    color: #ffb408;
+}
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+.header-content{
+    display: flex;
+}
+.header-txt{
+    width: 50%;
+    margin-bottom: 50px;
+}
+.header-txt h1{
+    font-size: 90px;
+    color: #ffb408;
+    line-height: 85px;
+    margin-bottom: 10px;
+    
+}
+.header-txt span{
+    font-size: 90px;
+}
+.header-txt p{
+    font-size: 16px;
+    color: #c4c4ce;
+    margin-bottom: 15px;
+}
+.header-img{
+    width: 30%;
+    text-align: center;
+}
+.header-img img{
+    width: 300px;
+}
+.btn-1{
+    display: inline-block;
+    padding: 13px 20px;
+    color: #ffb408;
+    border: 1px solid #ffb408;
+    border-radius: 15px;
+    margin-right: 30px;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-bottom: 100px;
+}
+.btn-1:hover{
+    color: #dcdde2;
+    background-color: #ffb408;  
+}
+.menu-pl{
+    padding: 0 0 100px 0;
+}
+h2{
+    font-size: 50px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+span{
+    color: #ffb408;
+}
+.general-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 35px;
+}
+.general-txt{
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgb(0,0,0,0.2);
+    padding-bottom: 35px;
+}
+.general-txt img{
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 250px;
+}
+/* */
+.general-txt h3{
+    font-size: 18px;
+    color: #292923;
+    padding: 25px 25px 10px 25px;
+}
+.general-txt p{
+    font-size: 16px;
+    color: #3a3a48;
+    padding: 0 25px 20px 25px;
+}.precio{
+    color: #ffb40b;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px 10px 25px;
+}
+.precio{
+    color: #ffb40b;
+    font-size: 18px;
+    font-weight: 600;
+}
+.btn-2{
+    display: inline-block;
+    background-color: #ffb40b;
+    font-size: 14px;
+    padding: 7px 15px;
+    color: #fbfcff;
+    border-radius: 10px;
+}
+.acercade{
+    padding: 100px 0;
+    margin-bottom: 100px;
+    background-color: #292923;
+}
+.acercade-txt{
+    width: 50%;
+}
+.acercade-content{
+    display: flex;
+}
+.acercade-txt h2{
+    color: #fbfcff;
+}
+.acercade-txt p{
+    color: #c4c4ce;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.hambuger{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hambuger span{
+    font-size: 80px;
+    font-weight: 800;
+}
+.acercade-img{
+    width: 50%;
+    text-align: right;
+}
+.footer{
+    background-color: #292933;
+    padding: 50px 0;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.link h3{
+    color: #dcdde2;
+    text-transform: uppercase;
+}
+.link a{
+    color: #ffb408;
+    font-size: 20px ;
+    display: block;
+    margin-bottom: 10px;
+}
+.link a:hover{
+    color: #dcdde2;
+}
+.atencion{
+    background-color: #ce76bf;
+    height: 500px;
+    width: 500px;
+    border: 2px solid #0f0f0f;
+    margin-left: 100px;
+}
+.atencion h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.atencion p{
+    display: inline-block;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.atencion h2{
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.lapp{
+    display: inline-block;
+    font-size: 24px;
+}
+.lapp h1{
+    margin-left: 80px;
+}
+.otros h1{
+    margin-left: 110px;
+}
+.otros h2{
+    display: block;
+
+}
+.lapp h1{
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 40px;
+}
+.otros{
+    display: inline-block;
+    font-size: 24px;
+
+}
+.otros h1{
+    font-size: 24px;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.otros h2{
+    font-size: 24px;
+    left: 0px;
+    margin-bottom: 20px;
+}
+.otros h3{
+    font-size: 24px;
+    margin-top: 10px;
+}
+.otros h4{
+    font-size: 24px;
+    margin-top: 10px;
+}
+.otros img{
+    display: inline-block;
+    height: 90px;
+    width: 90px;
+}
+.atencc{
+    background-color: #ce76bf;
+    height: 500px;
+    width: 600px;
+    margin-top: 0%;
+    margin-left: 150px;
+    border: 2px solid #0c0c0c;
+    
+    
+}
+.atencc h1{
+    font-size: 30px;
+    color: #080808;
+    margin-bottom: 16px;
+}
+.atencc h2{
+    font-size: 20px;
+    
+}
+.button-h2{
+    display: inline-block;
+    background-color: hotpink;
+    font-size: 14px;
+
+}
+
+
+.domicilio{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(233, 42, 201);
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 60px;
+    border: 2px solid #000000;
+    
+}
+.domicilio li{
+    margin-left: 20px;
+}
+.domicilio p{
+    font-size: 25px;
+    
+}
+.domicilio img{
+    height: 200px;
+    width: 190px;
+    margin-left: 300px;
+    margin-top: 0px;
+    position: absolute;
+}
+.reservacion{
+    background-color: lightblue;
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 0px;
+    border: 2px solid #000000;
+}
+.reservacion p{
+    font-size: 25px;
+}
+.buts{
+    margin-left: 30px;
+}
+.reservacion li{
+    margin-left: 20px;
+}
+
+.pedidos{
+    height: 300px;
+    width: 500px;
+    background-color: #ce76bf;
+    margin-top: 100px;
+    margin-left: 340px;
+    border: 2px solid #000000;
+}
+
+.pedidos p{
+    font-size: 25px;
+    text-align: center;
+}
+.num1{
+    height: 800px;
+    width: 440px;
+    background-color: #f8a6eabb;
+    border: 2px solid #000000;
+    
+}
+.num1 p{
+    font-size: 20px;
+    text-align: center;
+}
+.num1 img{
+    height: 100px;
+    height: 100px;
+    margin-top: 60px;
+}
+.manz{
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.jarrn{
+    display: inline-block;
+    margin-left: 20px;
+}
+.jarrpñ{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.cca{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin-left:27px;
+}
+.num2{
+    height: 600px;
+    width: 440px;
+    background-color: #80b1b4;
+    margin-left: 20px;
+    margin-bottom: 200px;
+    border: 2px solid #000000;
+}
+.num2 p{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+.coca img{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+.coca{
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+.num3{
+    height: 800px;
+    width: 430px;
+    background-color: #f192e5b7;
+    margin-left: 20px;
+    border: 2px solid #000000;
+}
+.num3 p{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 60px;
+    margin-left: 10px;
+}
+.atoles img{
+    height: 100px;
+    width: 100px;
+
+}
+.atoles{
+    margin-left: 20px;
+    display: inline-block;
+}
+.num4{
+    background-color: #ff08adcb;
+    height: 500px;
+    width: 450px;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 1100px;
+    border: 2px solid #000000;
+}
+.num4 p{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.cerveza{
+    
+    height: 640px;
+    width: 400px;
+    position: absolute;
+    margin-top: 2600px;
+    margin-left: 100px;
+    border: 2px ;
+  
+}
+.cerveza p{
+    text-align: center;
+    font-size: 20px;
+    transform: none;
+}
+.cerv img{
+    height: 100px;
+    width: 100px;
+}
+.cerv{
+    margin-left: 20px;
+    display: block;
+    margin-left: 77px;
+    margin-top: 30px;
+}
+.vino{
+    background-color: #2d2e07ad;
+    height: 600px;
+    width: 400px;
+    margin-top: 1330px;
+    margin-left: 100px;
+    
+}
+
+    
+    
